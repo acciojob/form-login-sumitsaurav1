@@ -1,6 +1,9 @@
 function getFormvalue() {
     //Write your code here 
-    let form = document.getElementById("form1")
+    let form = document.getElementById("f")
     //alert(form.children[0].value)
-	alert(form.children[1].value)
+	let form1= document.getElementById("l")
+    //alert(form.value,form1.value)
+	let s= form.value+" "+form1.value;
+	alert(s)
 }
